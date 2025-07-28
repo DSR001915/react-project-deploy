@@ -1,5 +1,5 @@
 #base image
-FROM node:12.18.2
+FROM node:18-alpine
 
 # set working directory
 RUN mkdir /usr/src/app
@@ -9,7 +9,7 @@ COPY . /usr/src/app
 WORKDIR /usr/src/app
 
 # install and cache app dependencies
-RUN yarn
+RUN npm install
 
 # add `/usr/src/app/node_modules/.bin` to $PATH
 ENV PATH /usr/src/app/node_modules/.bin:$PATH
