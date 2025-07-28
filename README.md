@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -36,3 +37,6 @@ You will also see any lint errors in the console.
 ### Docker compose check running container status
 `docker ps` 
 
+=======
+# react-project-deploy
+>>>>>>> 1cbc2aa7d7953cee3c1ee00df0e5a229c02c1c5c
